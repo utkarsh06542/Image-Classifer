@@ -1,5 +1,3 @@
-# These are all the modules we'll be using later. Make sure you can import them
-# before proceeding further.
 from __future__ import print_function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -114,11 +112,7 @@ def maybe_pickle(data_folders, min_num_images_per_class, force=False):
 train_datasets = maybe_pickle(train_folders, 45000)
 test_datasets = maybe_pickle(test_folders, 1800)
 
-#problem 2 verify that data still looks good
-
-#problem 3 To verify that classes are balanced
-
-#convolution file starts
+#convolution algorithm starts
 
 pickle_file = 'notMNIST.pickle'
 
